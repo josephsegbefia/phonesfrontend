@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Modal from "react-modal";
 import { IoMdRefresh } from "react-icons/io";
-// import PhoneList from "./components/PhoneList";
+import Footer from "./components/Footer";
 
 import "./App.css";
 // import Phone from "./components/Phone";
@@ -101,6 +101,7 @@ function App() {
           </Modal>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
