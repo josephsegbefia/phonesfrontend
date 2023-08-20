@@ -53,7 +53,7 @@ function App() {
             >
               <img
                 className="justify-center items-center p-8 lg:w-72 lg:h-72 md:w-50 md:h-50  rounded-full"
-                src={`../dist/images/${phone.imageFileName}`}
+                src={`../images/${phone.imageFileName}`}
                 alt=""
               />
               <div className="px-5 pb-5 text-white">{phone.name}</div>
@@ -83,7 +83,7 @@ function App() {
                 <h2 className="text-xl font-bold mb-4">{selectedPhone.name}</h2>
                 <img
                   className="w-48 h-48 mb-4"
-                  src={`../src/assets/images/${selectedPhone.imageFileName}`}
+                  src={`../images/${selectedPhone.imageFileName}`}
                   alt=""
                 />
                 <p className="mb-4">{selectedPhone.description}</p>
